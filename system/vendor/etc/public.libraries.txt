@@ -1,0 +1,7 @@
+libqti_performance.so
+libqti-perfd-client.so
+libOpenCL.so
+################################
+#### Motorola-specific libs ####
+################################
+libcamerabgproc-jni.so

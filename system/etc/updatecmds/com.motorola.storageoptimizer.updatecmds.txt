@@ -1,0 +1,3 @@
+# Migrate data to the new package from the old one
+com.motorola.storageoptimizer:com.motorola.so
+    shared_prefs

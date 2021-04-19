@@ -1,0 +1,4 @@
+<permissions>
+   <library name="com.motorola.imager.harpia"
+       file="/system/framework/com.motorola.imager.harpia" />
+</permissions>

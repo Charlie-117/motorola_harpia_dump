@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2017 Motorola Mobility Inc.
+    All Rights Reserved.
+    Motorola Mobility Confidential Restricted.
+-->
+<applications>
+    <package name="com.teamviewer.quicksupport.market">
+        <cert>A7:D9:9F:F4:85:F0:C5:5F:D4:F1:F9:CC:35:CB:08:A1:B7:4E:B9:95:FC:3F:05:24:31:8F:F6:62:F8:D3:CD:26</cert>
+        <permission name="android.permission.INJECT_EVENTS" warn="true"/>
+        <permission name="android.permission.CAPTURE_VIDEO_OUTPUT" warn="true"/>
+    </package>
+    <package name="com.teamviewer.host.market">
+        <cert>A7:D9:9F:F4:85:F0:C5:5F:D4:F1:F9:CC:35:CB:08:A1:B7:4E:B9:95:FC:3F:05:24:31:8F:F6:62:F8:D3:CD:26</cert>
+        <permission name="android.permission.INJECT_EVENTS" warn="true"/>
+        <permission name="android.permission.CAPTURE_VIDEO_OUTPUT" warn="true"/>
+    </package>
+</applications>

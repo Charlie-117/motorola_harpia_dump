@@ -1,0 +1,24 @@
+
+
+HAB_PRODUCT judo
+
+HAB_CUSTOMER_REGION Retail
+
+OTA_KEY motorola/security/certs/hab_support/products/judo/apk_certs_Retail/ota.x509.pem
+
+
+This build is customer signed.
+
+Use "fastboot getvar cid" to confirm customer ID on secure HW.
+
+Value must be 0 (developer HW) or match this value:
+
+Retail                => 50
+
+
+For signed build support, please see:
+
+motorola/security/certs/README.txt
+
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<packages>
+    <!-- Secondary Related Packages -->
+    <!-- <item>package.name</item> -->
+    <item>com.motorola.android.buacloudcontactadapter</item>
+    <item>com.vzw.hss.myverizon</item>
+    <item>com.vcast.mediamanager</item>
+    <item>com.vzw.apnservice</item>
+    <item>com.vznavigator.Generic</item>
+    <item>com.motorola.localwipe.policy</item>
+    <item>com.motorola.setup</item>
+    <item>com.motorola.launcherconfig</item>
+    <item>com.motricity.verizon.ssodownloadable</item>
+    <item>com.motorola.gpsnotifier</item>
+    <item>com.motorola.setupwizard.phoneservice</item>
+    <item>com.android.phone</item>
+    <item>com.motorola.setupwizard.controller</item>
+    <item>com.verizon.messaging.vzmsgs</item>
+    <item>com.gotv.nflgamecenter.us.lite</item>
+    <item>com.motorola.ptt.prip.br</item>
+    <item>com.motorola.ptt.prip.cl</item>
+    <item>com.motorola.ptt.prip</item>
+</packages>

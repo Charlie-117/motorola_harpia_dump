@@ -1,0 +1,3 @@
+com.motorola.demo:com.motorola.demomode
+    shared_prefs/DemoModeSharedPrefEnabled.xml
+

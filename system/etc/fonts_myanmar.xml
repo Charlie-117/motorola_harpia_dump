@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Motorola
+
+    This file contains the Mynamar fonts.  (extracted from fonts.xml)
+    When the device is set to non-Zawgyi locale, then these fonts are read.
+    When the device is set to Zawgyi locale, then font from
+    /vendor/bagan/fonts/fonts_zawgyi.xml is read.
+-->
+<familyset version="22">
+    <family lang="und-Mymr" variant="elegant">
+        <font weight="400" style="normal">NotoSansMyanmar-Regular.ttf</font>
+        <font weight="700" style="normal">NotoSansMyanmar-Bold.ttf</font>
+    </family>
+    <family lang="und-Mymr" variant="compact">
+        <font weight="400" style="normal">NotoSansMyanmarUI-Regular.ttf</font>
+        <font weight="700" style="normal">NotoSansMyanmarUI-Bold.ttf</font>
+    </family>
+</familyset>

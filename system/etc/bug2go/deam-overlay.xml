@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GBK"?>
+<deam version="1.0" xmlns="http://www.motorola.com/bug2go">
+    <tag type="dropbox" name="HEALTHD_RESTART" >
+        <scenario name="healthd restart collection">
+            <actions>
+                <attach>
+                    <entry/>
+                    <!-- Get healthd signals from trace file. -->
+                    <exec program="/system/bin/sh">
+                        <args>
+                            <arg>-c</arg>
+                            <arg>cat /sys/kernel/debug/tracing/trace > $B2G_REPORT_DIR/trace_healthd.txt</arg>
+                        </args>
+                    </exec>
+                    <!-- Get dmesg logs in case aplogd isn't running or the files aren't accessible. -->
+                    <exec program="/system/bin/sh">
+                        <args>
+                            <arg>-c</arg>
+                            <arg>
+                                /system/bin/dmesg > $B2G_REPORT_DIR/dmesg.txt
+                            </arg>
+                        </args>
+                    </exec>
+                    <exec program="/system/bin/bugreport">
+                        <output>bugreport.txt</output>
+                        <timeout>300</timeout> <!-- 5 minutes max -->
+                    </exec>
+                    <!-- Get kernel logs from aplogd if available. -->
+                    <exec program="/system/bin/aplogcat">
+                        <output>aplogcat.txt</output>
+                        <args>
+                            <arg>--dump</arg>
+                            <arg>--buffer</arg>
+                            <arg>kernel</arg>
+                            <arg>--output</arg>
+                            <arg>./aplogcat-</arg>
+                            <arg>--temp</arg>
+                            <arg>./</arg>
+                            <arg>--bytes</arg>
+                            <arg>10M</arg>
+                        </args>
+                    </exec>
+                </attach>
+            </actions>
+        </scenario>
+    </tag>
+</deam>

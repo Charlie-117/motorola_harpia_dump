@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<packages>
+    <!-- Debug Related Packages -->
+    <!-- <item>package.name</item> -->
+    <item>com.motorola.android.jvtcmd</item>
+    <item>com.motorola.android.settings.aplogd</item>
+    <item>com.motorola.android.settings.diag_mdlog</item>
+    <item>com.motorola.android.settings.modemdebug</item>
+    <item>com.motorola.bug2go</item>
+    <item>com.motorola.ccc.internal</item>
+    <item>com.motorola.cdbench</item>
+    <item>com.motorola.desense</item>
+    <item>com.motorola.iplog</item>
+    <item>com.motorola.iqdataupload</item>
+    <item>com.motorola.pmtest</item>
+    <item>com.motorola.tools.batterytracer</item>
+    <item>com.motorola.tools.batterytracersdcard</item>
+</packages>

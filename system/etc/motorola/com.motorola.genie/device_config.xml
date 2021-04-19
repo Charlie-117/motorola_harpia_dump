@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configurations>
+
+    <config>
+        <type>power_key</type>
+        <properties>
+            <position>right</position>
+            <margin_top>100</margin_top>
+            <present>yes</present>
+        </properties>
+    </config>
+
+    <config>
+        <type>volume_key</type>
+        <properties>
+            <position>right</position>
+            <margin_top>220</margin_top>
+            <present>yes</present>
+        </properties>
+    </config>
+
+    <config>
+        <type>soft_key</type>
+        <properties>
+            <present>yes</present>
+            <margin_space>10</margin_space>
+        </properties>
+    </config>
+</configurations>

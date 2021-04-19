@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+    <item>com.motorola.actions</item>
+    <item>com.motorola.bug2go</item>
+    <item>com.motorola.ccc.checkin</item>
+    <item>com.motorola.ccc.devicemanagement</item>
+    <item>com.motorola.ccc.internal</item>
+    <item>com.motorola.ccc.mainplm</item>
+    <item>com.motorola.ccc.notification</item>
+    <item>com.motorola.ccc.ota</item>
+    <item>com.motorola.context</item>
+    <item>com.motorola.genie</item>
+    <item>com.motorola.moto</item>
+    <item>com.motorola.motodisplay</item>
+    <item>com.motorola.motodisplay.env</item>
+    <item>com.motorola.motokey</item>
+    <item>com.motorola.sensorhub.stml0.updater</item>
+    <item>com.verizon.llkagent</item>
+    <item>com.verizon.vzwavs</item>
+    <item>com.vzw.apnlib</item>
+    <item>com.vzw.apnservice</item>
+</packages>
